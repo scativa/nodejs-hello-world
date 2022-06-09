@@ -11,5 +11,5 @@ WORKDIR   $APP_HOME
 # Copy in files:
 COPY      . $APP_HOME
 
-EXPOSE    80
+EXPOSE    8000
 CMD       ["node", "index.js"]
